@@ -1,0 +1,33 @@
+*Bu promptlar chatgpt ye yazılmıştır*
+Bir web sitesi geliştirmemde bana yardım etmeni istiyorum. Proje için şu araçları kullanarak yeni bir web sitesi tasarlamalısınız: 
+User
+HTML, CSS için CDN'yi kullanan Bootstrap çerçevesi ve Javascript
+User
+Web sitesi mobil uyumlu ve duyarlı olmalıdır.  Ayrıca düzen ve stil açısından site yapısında Twitter Bootstrap CSS sınıflarının son sürümünü de içermelidir.
+Sayfa içeriğindeki başlıklara dahili bağlantılar içeren gezinti menüsü de olmalıdır. Yazdığınız kodların hiçbirinde açıklama yapmayın. 
+web sitemin içeriği bir portfolyo galeri web sitesi ve burada konser önerileri paylaşmak istiyorum. web sitemde header, main, nav, section, article, aside, footer gibi semantik etiketlerin kullanılmasını istiyorum. Bana bu web sitesini oluşturmamda yardımcı olur musun?
+Bu web sitesinin arka planını göz yormayan pastel renklerle renklendirir misin? Konser önerileri dörtlü sütunlar halinde oluşturulsun. Portfolyo kısmına da sağ üstteki bir portfolyo komutundan ulaşılsın.
+Portfolyodeki proje kısmı bire düşmelidir. Konser sayısı dokuza çıkmalıdır.
+Konserlerin içeriğine konser içeriği adında bir yazıya tıklayıp ulaşmak istiyorum. Bu yazı konser adlarının altında olsun. 
+Fatma Turgut Konseri nin içeriğinde '3 kere farklı konumlarda gittiğim Fatma Turgut konserine her defasında hayranlıkla bekledim. Fatma Turgut un şarkı söylemeye başlamasıyla ortamın aldığı farklı enerji insanı resmen büyülüyor. Herkesin hayatında bir kere bu konsere gitmesini tavsiye ediyorum.' yazsın.
+Bu koda dört adet konser önerisi verebileceğim başlık ve içerik kısmı ekleyip yan yana düzenlemeni istiyorum. Ana başlık Konser Tavsiyelerim olsun. Konser tavsiyelerimin başlıları sırasıyla Fatma Turgut Konseri, Manga Konseri, Sertab Erener Konseri, Gökhan Türkmen Konseri olsun. Bu koda bu özellikleri eklemeni rica edebilir miyim?
+Bu koda Manga Konser içeriği olarak 'Bir çok kez gittiğim Eurovision'nun 2010 yılı 2. si olan bu grubun çok farklı bir tarzı vardır. Kesinlikle gidilmeli olarak değerlendirdiğim bir diğer konserdir. Kimse yerinde duramaz bu konserde zıplamayan varsa çok zıplamaktan yorulmuştur. ' kısmını ekler misin? 
+User
+Bu kodda Sertab Erener Konseri adlı başlığın içeriğini ' Maalesef yalnızca bir kez gitme fırsatı yakalayabildiğim bu olağan üstü kadın ve ekibinin muhteşemliği sorgulanamazdı. 2003 yılında Eurovision birincisi olan Sertab Erener yaşına rağmen tam enerjisiyle konserlerinin aurasını değiştiriyor. ' olarak değiştirip Gökhan Türkmen Konserinin içeriğine 'Kendisinin marjinal tarzının şarkılarında ve sahnesinde de olduğunu düşündüğüm bu insanın konserine kim gitmek istemez ki. Herkesin kalbinin en derinlerine ulaşan şarkılarını söylerken insan mest oluyor ' kısmını ekler misin?
+Bu kodda Project 1 in içeriği Aygaz GenAI Bootcamp: Prompt Mühendisliğine Giriş programı için hazırladığım bir web sitesidir yazsın
+Bir Communication başlığı ekle ve bu dahili bağlantısıyla bağlı olsun ve kodu tekrar yazdırır mısın?
+Mükemmel Communication un içeriğine E-posta: sezinyeksin@outlook.com u ekler misin
+kodunu vereceğim web sitesine senden istediğim görseli ekleyebilir misin
+https://i.pinimg.com/originals/f6/46/be/f646be7b9907d18fc756254038ce3afa.jpg fatma turgut konserinin altına bunu ekleyip güncelleyelim ve bu fotoğrafın boyutunu 1/4 e düşürelim
+Manga konserinin altına bu görselin 1/4 ünü ekler misin https://i.pinimg.com/736x/d8/c0/8b/d8c08b3d16f7e9c8eb8bc5674ef44df9.jpg
+https://i.pinimg.com/736x/16/f9/59/16f95984f4e997d18221d2b13ddaae43.jpg bu görseli sertab erener konserinin altına 1/4 oranda küçültülmüş olarak ekler misin
+https://i.pinimg.com/736x/10/1b/c4/101bc444da21b215c324212e85869fb4.jpg bu görseli gökhan türkmen konserinin altına 1/4 e düşürerek ekleyelim
+
+*Görsel oluşturmak için canva kullanıldı*
+Sahnede şarkı söyleyen kadın sanatçıyı dinleyen seyircilerin uzaktan görüntüsü
+Sahnede 4 erkek üyesi olan seyircilerle şarkı söyleyen rock grubu fotoğrafı
+Sahnede enerjik şekilde şarkı söyleyen bir kadın sanatçının uzaktan çekilmiş fotoğrafı
+Marjinal tarzı olan seyircilerle şarkı söyleyen erkek sanatçının sahnedeki fotoğrafı
+
+
+
