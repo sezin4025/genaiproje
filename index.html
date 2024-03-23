@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio & Concert Recommendations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Portfolio</h1>
+    <nav>
+        <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#concerts">Concerts</a></li>
+            <li><a href="#communication">Communication</a></li> <!-- Yeni dahili bağlantı -->
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <article>
+            <h3>Project 1</h3>
+            <p>Aygaz GenAI Bootcamp: Prompt Mühendisliğine Giriş programı için hazırladığım bir web sitesidir.</p>
+        </article>
+    </section>
+
+    <section id="concerts">
+        <h2>Concert Recommendations</h2>
+        <div class="concerts-container">
+            <article>
+                <h3>Fatma Turgut Konseri</h3>
+                <img src="https://i.pinimg.com/originals/f6/46/be/f646be7b9907d18fc756254038ce3afa.jpg" alt="Fatma Turgut Konseri" style="width: 25%;">
+                <p><span class="concert-link" onclick="showConcertContent(1)">Konser İçeriği</span></p>
+                <div id="concert-content-1" style="display: none;">
+                    <p>3 kere farklı konumlarda gittiğim Fatma Turgut konserine her defasında hayranlıkla bekledim. Fatma Turgut'un şarkı söylemeye başlamasıyla ortamın aldığı farklı enerji insanı resmen büyülüyor. Herkesin hayatında bir kere bu konsere gitmesini tavsiye ediyorum.</p>
+                </div>
+            </article>
+
+            <article>
+                <h3>Manga Konseri</h3>
+                <img src="https://i.pinimg.com/736x/d8/c0/8b/d8c08b3d16f7e9c8eb8bc5674ef44df9.jpg" alt="Manga Konseri" style="width: 25%;">
+                <p><span class="concert-link" onclick="showConcertContent(2)">Konser İçeriği</span></p>
+                <div id="concert-content-2" style="display: none;">
+                    <p>Bir çok kez gittiğim Eurovision'nun 2010 yılı 2. si olan bu grubun çok farklı bir tarzı vardır. Kesinlikle gidilmeli olarak değerlendirdiğim bir diğer konserdir. Kimse yerinde duramaz bu konserde zıplamayan varsa çok zıplamaktan yorulmuştur.</p>
+                </div>
+            </article>
+            <article>
+                <h3>Sertab Erener Konseri</h3>
+                <img src="https://i.pinimg.com/736x/16/f9/59/16f95984f4e997d18221d2b13ddaae43.jpg" alt="Sertab Erener Konseri" style="width: 25%;">
+                <p><span class="concert-link" onclick="showConcertContent(8)">Konser İçeriği</span></p>
+                <div id="concert-content-8" style="display: none;">
+                    <p>Maalesef yalnızca bir kez gitme fırsatı yakalayabildiğim bu olağan üstü kadın ve ekibinin muhteşemliği sorgulanamazdı. 2003 yılında Eurovision birincisi olan Sertab Erener yaşına rağmen tam enerjisiyle konserlerinin aurasını değiştiriyor.</p>
+                </div>
+            </article>
+            <article>
+                <h3>Gökhan Türkmen Konseri</h3>
+                <img src="https://i.pinimg.com/736x/10/1b/c4/101bc444da21b215c324212e85869fb4.jpg" alt="Gökhan Türkmen Konseri" style="width: 25%;">
+                <p><span class="concert-link" onclick="showConcertContent(9)">Konser İçeriği</span></p>
+                <div id="concert-content-9" style="display: none;">
+                    <p>Kendisinin marjinal tarzının şarkılarında ve sahnesinde de olduğunu düşündüğüm bu insanın konserine kim gitmek istemez ki. Herkesin kalbinin en derinlerine ulaşan şarkılarını söylerken insan mest oluyor.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="communication">
+        <h2>Communication</h2>
+        <p>You can reach me via email at: <a href="mailto:sezinyeksin@outlook.com">sezinyeksin@outlook.com</a></p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

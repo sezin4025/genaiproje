@@ -1,0 +1,85 @@
+body {
+    background-color: #f7f7f7; /* Arka plan rengi */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2e6ff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333333;
+}
+
+article {
+    background-color: #ffffff; /* Makale arka plan rengi */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.concerts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.concerts-container article {
+    width: calc(25% - 20px); /* 4 sütunlu düzen */
+}
+
+.concert-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f2e6ff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Yeni stiller */
+#about {
+    display: none;
+}
+
+#about-toggle:checked + #about {
+    display: block;
+}
+
+#about-toggle + label {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
